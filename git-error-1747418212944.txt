@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Page</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form>
+            <div>
+                <lebel for="fullname">Fullname : </lebel>
+                <input type="text" name="fulname" id="fullname">   
+            </div></br>
+            <div>
+                <lebel for="email">Email : </lebel>
+                <input type="email" name="email" id="email">   
+            </div></br>
+            <div>
+                <lebel for="password">Password : </lebel>
+                <input type="password" name="password" id="password">   
+            </div></br>
+            <div>
+                <lebel for="dob">Date Of Birth : </lebel>
+                <input type="date" name="dob" id="dob">   
+            </div></br>
+            <div>
+                <lebel for="photo">Chose Your Emage : </lebel>
+                <input type="file" name="photo" id="photo">   
+            </div></br>
+            <div>
+                <lebel for="gender">Gender : </lebel>
+                <input type="radio" name="gender" id="gender" value="male"> Male
+                <input type="radio" name="gender" id="gender" value="female"> Female
+            </div></br>
+            <div>
+                <lebel for="religion">Religion : </lebel>
+                <input type="checkbox" name="religion" id="religion" value="Muslim"> Muslim
+                <input type="checkbox" name="religion" id="religion" value="Hindu"> Hindu
+                <input type="checkbox" name="religion" id="religion" value="Khiristan"> Khiristan
+                <input type="checkbox" name="religion" id="religion" value="Boddho">  Boddho
+            </div></br>
+            <div>
+                <lebel for="department">Department : </lebel>
+                <select name="department">
+                    <option value="cse">CSE</option>
+                    <option value="cse">BBA</option>
+                    <option value="cse">EEE</option>
+                </select>
+            </div></br>
+            <div>
+                <lebel for="message">Message : </lebel></br>
+                <textarea cols="50" rows="20"></textarea>  
+            </div></br>
+            <div>
+                <input type="submit" value="Register">  
+                <input type="reset" value="Clear">
+            </div> 
+        </form>
+    </body>
+</html>
